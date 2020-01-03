@@ -1,8 +1,9 @@
-html, body{
+html,
+body {
   margin: 0;
 }
 .container {
-  margin: 40px auto 0 auto;
+  margin: 40px 20px 0 20px;
   max-width: 1200px;
 }
 
@@ -10,16 +11,19 @@ html, body{
   margin: auto;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.ql-editor{
-  min-height:200px;
+.ql-editor {
+  min-height: 200px;
 }
 
 @media only screen and (min-width: 1200px) {
   .nav-container {
     min-width: 1200px;
+  }
+  .container {
+    margin: 40px auto 0 auto;
   }
 }
