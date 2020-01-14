@@ -10,3 +10,7 @@ export const LOADING_UI = "LOADING_UI";
 export const STOP_LOADING_UI = "STOP_LOADING_UI";
 export const CLEAR_ERRORS = "CLEAR_ERRORS";
 export const SET_ERRORS = "SET_ERRORS";
+export const SET_MESSAGES = "SET_MESSAGES";
+export const ADD_MESSAGE = "ADD_MESSAGE";
+export const DELETE_MESSAGE = "DELETE_MESSAGE";
+export const CLEAR_MESSAGES = "CLEAR_MESSAGES";

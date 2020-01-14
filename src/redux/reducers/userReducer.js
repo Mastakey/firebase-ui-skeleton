@@ -30,10 +30,17 @@ export default function(state = initialState, action) {
     case SET_UNAUTH:
       return initialState;
     case SET_USER:
+      if (state.authenticated) {
+        return {
+          authenticated: true,
+          loading: false,
+          ...action.payload
+        };
+      }
       return {
-        authenticated: true,
-        loading: false,
-        ...action.payload
+        ...state,
+        authenticated: false,
+        loading: false
       };
     case SIGNUP_USER:
       return {

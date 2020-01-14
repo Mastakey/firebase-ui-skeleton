@@ -8,6 +8,8 @@ import Navbar from './components/nav/Navbar';
 //Pages
 import Home from './routes/Home';
 import Login from "./routes/Login";
+import Logout from "./routes/Logout";
+import Signup from "./routes/Signup";
 
 //Redux
 import {Provider} from 'react-redux';
@@ -48,6 +50,8 @@ function App() {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/login" component={Login} />
+              <Route exact path="/logout" component={Logout} />
+              <Route exact path="/signup" component={Signup} />
             </Switch>
           </div>
         </Router>
