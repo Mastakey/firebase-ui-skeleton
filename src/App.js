@@ -6,8 +6,8 @@ import './App.css';
 import Navbar from './components/nav/Navbar';
 
 //Pages
-import Home from './pages/Home';
-import Login from "./pages/Login";
+import Home from './routes/Home';
+import Login from "./routes/Login";
 
 //Redux
 import {Provider} from 'react-redux';
